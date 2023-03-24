@@ -1,0 +1,19 @@
+.spinner-wrapper{
+    background-image: url('static/smallB.png');
+    background-color: #a349a4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.spinner-border{
+    height: 60px;
+    width: 60px;
+}
